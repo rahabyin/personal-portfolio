@@ -1,0 +1,114 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f5f3ef; /* soft earthy tone */
+  color: #2e2e2e;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* NAVIGATION */
+#navigation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #a67c52; /* warm brown accent */
+}
+
+/* SECTIONS */
+section {
+  margin: 30px auto;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: #1f1f1f;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  border-left: 4px solid #a67c52;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+/* IMAGE */
+img {
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  border: 3px solid #a67c52;
+}
+
+/* LISTS */
+ul, ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* TEXT STYLING */
+strong {
+  color: #000;
+}
+
+em {
+  color: #555;
+}
+
+/* HEADER INTRO */
+header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* PARAGRAPHS */
+p {
+  margin: 10px 0;
+}
+
+/* DIV SPACING FIX */
+div {
+  margin-bottom: 10px;
+}
+
+/* FOOTER (optional if you add one later) */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
